@@ -13,4 +13,4 @@
 
 ## Result
 
-As a result, we combined multiple rest API:s to one API Gateway, using Lambda functions and Serverless. One Lambda function fetched data from multiple open REST APIs and combined it together. This data was available to use in our own API Gateway. An email of the combined data was sent via AWS SNS once a day. All the resources can be put up with Serverless template. We didn't use any database, as we didn't have any use for it with this kind of solution.
+As a result, we combined multiple rest API:s to one API Gateway, using Lambda functions and Serverless. One Lambda function fetched data from multiple open REST APIs and combined it together. This data was available to use in our own API Gateway. An email of the combined data was sent via AWS SNS once a day. Most of the resources can be put up with Serverless template. In the end, we didn't use any database, as we didn't have any use for it with this kind of solution.
