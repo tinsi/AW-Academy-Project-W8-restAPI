@@ -2,6 +2,8 @@
 const https = require("https");
 const AWS = require("aws-sdk");
 
+// This Lambda shapes the combined data for SNS message
+
 exports.handler = async (event) => {
   try {
     const result1 = await getKanye();
