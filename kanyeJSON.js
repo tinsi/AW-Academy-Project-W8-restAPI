@@ -2,7 +2,7 @@
 const https = require("https");
 const AWS = require("aws-sdk");
 
-# this Lambda handles the data to right format for the SNS message
+//this Lambda handles the data to right format for the SNS message
 
 exports.handler = async (event) => {
   try {
